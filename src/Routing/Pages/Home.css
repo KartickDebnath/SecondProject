@@ -1,0 +1,25 @@
+/* Default styles for cards */
+.home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Ensure cards wrap to the next row if the screen is narrow */
+  }
+  
+  .card {
+    width: 9rem;
+    margin: 0.8rem; /* Add some spacing between cards */
+  }
+  
+  /* Media query for screens with a maximum width of 600px */
+  @media (max-width: 600px) {
+    .home {
+      flex-direction: column; /* Display cards in a column */
+      align-items: center; /* Center align cards in the column */
+    }
+  
+    .card {
+      width: 90%; /* Adjust the width to take up 90% of the screen */
+      margin: 1rem auto; /* Center align and add spacing */
+    }
+  }
+  /* Default styles for .home2 */

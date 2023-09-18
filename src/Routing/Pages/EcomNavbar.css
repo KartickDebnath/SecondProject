@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+    .nav5 {
+       margin-left: -100px;
+       padding-bottom: 20px;
+    }
+    .btn-search {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      
+      
+      @media screen and (max-width: 600px) {
+        .btn-search {
+          width: 30px;
+          height: 30px; 
+          border-radius: 50%;
+        }
+      }
+}
